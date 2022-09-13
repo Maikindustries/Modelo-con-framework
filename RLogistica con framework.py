@@ -6,10 +6,9 @@
 #Librerías
 import pandas as pd
 from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LogisticRegression,SGDClassifier
+from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import confusion_matrix, accuracy_score, precision_score
-import seaborn as sns
 
 #Cargar datos
 dataset = pd.read_csv('winequality_red.csv')
